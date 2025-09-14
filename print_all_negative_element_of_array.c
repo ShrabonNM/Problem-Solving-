@@ -12,7 +12,7 @@ int main()
     }
     int d = 0;
     int val = 0;
-    int n_arr[d];
+    int n_arr[n];
     for(int i = 0 ; i<n; i++ ){
         if(arr[i]<val){
 
@@ -35,3 +35,4 @@ int main()
 
     return 0;
 }
+
