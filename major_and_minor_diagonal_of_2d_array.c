@@ -18,7 +18,7 @@ int main()
 printf("\n Minor diagonal :  ");
 for (int i = 0; i < n; i++) {
     for (int j = 0; j < n; j++) {
-        if (i + j == n - 1) {   // condition for minor diagonal
+        if (i + j == n - 1) {  
             printf("%d ", arr[i][j]);
         }
     }
@@ -37,3 +37,4 @@ for (int i = 0; i < n; i++) {
 
     return 0;
 }
+
