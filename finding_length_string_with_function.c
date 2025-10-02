@@ -18,8 +18,9 @@ int length(char arr[])
     {
         count++;
     }
-    return count ;
+    return count-1 ;
 }
+
 
 
 
