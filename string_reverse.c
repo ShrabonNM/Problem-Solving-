@@ -15,7 +15,7 @@ int main() {
     }
     
     for(int j = 0 , k = size - 1 ; j<=k ; j++,k-- ){
-        int temp = str1[j] ;
+        char temp = str1[j] ;
         str1[j] = str1[k];
         str1[k] = temp ;
     }
